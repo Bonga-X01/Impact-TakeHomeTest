@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="fixing configuration file">
+    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Refactoring code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="org.nkosiDev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberRangeSummarizerImplTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.nkosiDev.Main" />
       <module name="impactTest" />
@@ -113,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberRangeSummarizerImplTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.NumberRangeSummarizerImplTest" />
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest.summarizeCollection_IntegerInsideList_returnNumericString" />
       </list>
     </recent_temporary>
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683058037669</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactoring code">
+      <created>1683059726297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683059726297</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +204,8 @@
     <MESSAGE value="Removing comments and increasing code readability" />
     <MESSAGE value="refactoring tests" />
     <MESSAGE value="fixing configuration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing configuration file" />
+    <MESSAGE value="Refactoring code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/impactTest$NumberRangeSummarizerImplTest.ic" NAME="NumberRangeSummarizerImplTest Coverage Results" MODIFIED="1683025898811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
