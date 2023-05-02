@@ -13,7 +13,6 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer{
     public Collection<Integer> collect(String input) {
 
         if (input.isEmpty()) return Collections.emptyList();
-
         return Arrays.stream(input.split(","))
                 .map(Integer::valueOf)
                 .collect(Collectors.toList());
@@ -30,10 +29,10 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer{
         Predicate<Integer> hasSuccessor = currentIndex ->
                 (currentIndex + 1 < arrayOfNumbers.length && arrayOfNumbers[currentIndex + 1] == arrayOfNumbers[currentIndex] + 1);
 
-        BiPredicate<Integer, Integer> haveNoRange  = (start, end) -> Objects.equals(end, start);
+        BiPredicate<Integer, Integer> existsRange  = (start, end) -> !Objects.equals(end, start);
 
         BiFunction<Integer, Integer, String> getRange = (start, end) ->
-                haveNoRange.test(start, end) ? (start + ", ") : (start + "-" + end + ", ");
+                existsRange.test(start, end) ? (start + "-" + end + ", ") : (start + ", ");
 
         Function<String, String> trimOutput = str -> str.substring(0,str.length()-2);
 
@@ -48,6 +47,6 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer{
             summary.append(getRange.apply(start, end));
             index++;
         }
-        return trimOutput.apply(summary.toString());
+        return trimOutput.apply(String.valueOf(summary));
     }
 }
