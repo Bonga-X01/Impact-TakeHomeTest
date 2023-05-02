@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Implemented NumberRangeSummarizer Interface and Added basic tests">
+    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Added Tests for some possible cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" afterDir="false" />
@@ -67,7 +67,7 @@
       <recent name="org.nkosiDev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberRangeSummarizerImplTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.nkosiDev.Main" />
       <module name="impactTest" />
@@ -114,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest" />
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest.summarizeCollection_IntegerInsideList_returnNumericString" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,12 +150,25 @@
       <option name="project" value="LOCAL" />
       <updated>1683010981151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Tests for some possible cases">
+      <created>1683022293096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683022293096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven Setup" />
     <MESSAGE value="Implemented NumberRangeSummarizer Interface and Added basic tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented NumberRangeSummarizer Interface and Added basic tests" />
+    <MESSAGE value="Added Tests for some possible cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tests for some possible cases" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/impactTest$NumberRangeSummarizerImplTest.ic" NAME="NumberRangeSummarizerImplTest Coverage Results" MODIFIED="1683025898811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.nkosiDev.*</FILTER>
+    </SUITE>
   </component>
 </project>

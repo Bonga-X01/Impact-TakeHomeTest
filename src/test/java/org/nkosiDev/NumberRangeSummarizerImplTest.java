@@ -10,12 +10,12 @@ import static junit.framework.TestCase.assertEquals;
 
 /**
  * Assumptions:
- * Input is a list of unique integers in ascending order.
+ * Input is a string of unique integers in ascending order.
  *
  */
 public class NumberRangeSummarizerImplTest {
 
-    //tests for correct input
+    //tests for basic input
     @Test
     public void collect_stringOfNumbers_returnIntegerCollection() {
 

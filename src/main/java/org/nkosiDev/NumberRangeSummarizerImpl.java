@@ -27,31 +27,27 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer{
         StringBuilder summary = new StringBuilder();
         Integer[] arrayOfNumbers = input.toArray(Integer[]::new);
 
-        Predicate<Integer> hasSuccessor = currentIndex -> (currentIndex + 1 < arrayOfNumbers.length && arrayOfNumbers[currentIndex + 1] == arrayOfNumbers[currentIndex] + 1);
+        Predicate<Integer> hasSuccessor = currentIndex ->
+                (currentIndex + 1 < arrayOfNumbers.length && arrayOfNumbers[currentIndex + 1] == arrayOfNumbers[currentIndex] + 1);
 
         BiPredicate<Integer, Integer> haveNoRange  = (start, end) -> Objects.equals(end, start);
 
-        BiFunction<Integer, Integer, String> getRange = (start, end) -> haveNoRange.test(start, end) ? (start + ", ") : (start + "-" + end + ", ");
+        BiFunction<Integer, Integer, String> getRange = (start, end) ->
+                haveNoRange.test(start, end) ? (start + ", ") : (start + "-" + end + ", ");
 
         Function<String, String> trimOutput = str -> str.substring(0,str.length()-2);
 
         int index = 0;
 
         while(index<arrayOfNumbers.length) {
-
             int start,end;
-
             start = arrayOfNumbers[index];
             //continue until sequence breaks
             while(hasSuccessor.test(index)) index++;
-
             end = arrayOfNumbers[index];
-
             summary.append(getRange.apply(start, end));
-
             index++;
-        }// time complexity - O(n)
-
+        }
         return trimOutput.apply(summary.toString());
     }
 }
