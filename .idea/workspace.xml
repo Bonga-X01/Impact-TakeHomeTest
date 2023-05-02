@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Refactoring code">
+    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="expressed assumption in the main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683059726297</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="expressed assumption in the main class">
+      <created>1683061494827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683061494827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +211,8 @@
     <MESSAGE value="refactoring tests" />
     <MESSAGE value="fixing configuration file" />
     <MESSAGE value="Refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code" />
+    <MESSAGE value="expressed assumption in the main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="expressed assumption in the main class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/impactTest$NumberRangeSummarizerImplTest.ic" NAME="NumberRangeSummarizerImplTest Coverage Results" MODIFIED="1683025898811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
