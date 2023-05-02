@@ -1,8 +1,6 @@
 package org.nkosiDev;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Objects;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Function;
@@ -13,15 +11,18 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer{
 
     @Override
     public Collection<Integer> collect(String input) {
+
+        if (input.isEmpty()) return Collections.emptyList();
+
         return Arrays.stream(input.split(","))
-                .filter(item-> !item.contains("."))//delete doubles
-                .filter(item-> !item.isEmpty())//delete whitespaces
-                .map(Integer::valueOf).sorted()
+                .map(Integer::valueOf)
                 .collect(Collectors.toList());
     }
 
     @Override
     public String summarizeCollection(Collection<Integer> input) {
+
+        if (input.isEmpty()) return "";
 
         StringBuilder summary = new StringBuilder();
         Integer[] arrayOfNumbers = input.toArray(Integer[]::new);

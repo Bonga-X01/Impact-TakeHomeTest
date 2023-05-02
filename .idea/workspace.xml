@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Maven Setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/nkosiDev/NumberRangeSummarizerImplTest.java" afterDir="false" />
+    <list default="true" id="40f15757-6978-4ea1-bc6c-14b8d66ca7a3" name="Changes" comment="Implemented NumberRangeSummarizer Interface and Added basic tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nkosiDev/NumberRangeSummarizerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nkosiDev/NumberRangeSummarizerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nkosiDev/NumberRangeSummarizerImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberRangeSummarizerImplTest.summarizeCollection_IntegerInsideList_returnNumericString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="impactTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nkosiDev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nkosiDev" />
+      <option name="MAIN_CLASS_NAME" value="org.nkosiDev.NumberRangeSummarizerImplTest" />
+      <option name="METHOD_NAME" value="summarizeCollection_IntegerInsideList_returnNumericString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest" />
+        <item itemvalue="JUnit.NumberRangeSummarizerImplTest.summarizeCollection_IntegerInsideList_returnNumericString" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -127,11 +143,19 @@
       <option name="project" value="LOCAL" />
       <updated>1683009825110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented NumberRangeSummarizer Interface and Added basic tests">
+      <created>1683010981151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010981151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven Setup" />
+    <MESSAGE value="Implemented NumberRangeSummarizer Interface and Added basic tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented NumberRangeSummarizer Interface and Added basic tests" />
   </component>
 </project>
