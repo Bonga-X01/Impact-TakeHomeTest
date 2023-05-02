@@ -65,7 +65,7 @@
       <recent name="org.nkosiDev" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.NumberRangeSummarizerImplTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.nkosiDev.Main" />
       <module name="impactTest" />
@@ -112,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NumberRangeSummarizerImplTest.summarizeCollection_IntegerInsideList_returnNumericString" />
       </list>
     </recent_temporary>
